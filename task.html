@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title>Creative Coder - Emotional Health</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    body {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  margin: 0;
+  background: #fff;
+  color: #222;
+}
+
+header {
+  background: #343434 url('header-bg.jpg') center/cover no-repeat;
+  color: #fff;
+  min-height: 400px;
+  position: relative;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 32px 60px 0 60px;
+}
+
+.logo {
+  font-size: 2.2rem;
+  font-weight: bold;
+  color: #222;
+}
+.logo span {
+  color: #6cc619;
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+  gap: 40px;
+  margin: 0;
+}
+.nav-links a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.contact-btn {
+  background: #e2e800;
+  color: #1a1a1a;
+  padding: 10px 28px;
+  border-radius: 4px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 400px;
+}
+.hero-content {
+  text-align: center;
+}
+.hero-content h1 {
+  font-size: 2.3rem;
+  font-weight: bold;
+  margin-bottom: 32px;
+}
+.trial-btn {
+  background: #e2e800;
+  color: #1a1a1a;
+  padding: 12px 32px;
+  border-radius: 4px;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 1.1rem;
+}
+
+main {
+  background: #fff;
+}
+
+.feature {
+  display: flex;
+  justify-content: space-between;
+  padding: 60px 60px 0 60px;
+  background: #fff;
+  gap: 36px;
+}
+.feature-left {
+  background: #0ba44a;
+  color: #fff;
+  border-radius: 22px;
+  padding: 34px 28px;
+  max-width: 450px;
+  flex: 1;
+  position: relative;
+  z-index: 2;
+}
+.feature-left h2 {
+  margin-bottom: 24px;
+}
+.feature-left ul {
+  margin-bottom: 24px;
+}
+.feature-left li {
+  margin-bottom: 6px;
+  font-size: 1rem;
+}
+.faq {
+  margin-bottom: 24px;
+}
+.faq-item {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 14px;
+}
+.faq-item span {
+  font-size: 1.4rem;
+  font-weight: bold;
+  margin-right: 15px;
+  color: #e2e800;
+}
+.read-btn {
+  display: block;
+  margin-top: 18px;
+  background: #e2e800;
+  color: #1a1a1a;
+  padding: 10px 28px;
+  border-radius: 4px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.feature-right {
+  flex: 1.2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.feature-img {
+  width: 330px;
+  height: 330px;
+  background: #eee url('consultation.jpg') center/cover no-repeat;
+  border-radius: 24px;
+}
+
+.gallery-section {
+  padding: 60px;
+  text-align: center;
+}
+.gallery-section h2 {
+  color: #0ba44a;
+  margin-bottom: 28px;
+  font-size: 1.8rem;
+}
+.gallery {
+  display: flex;
+  justify-content: center;
+  gap: 18px;
+}
+.gallery-img {
+  width: 210px;
+  height: 160px;
+  background: #dbece3 url('gallery1.jpg') center/cover no-repeat;
+  border-radius: 14px;
+}
+
+footer {
+  background: #fff;
+  padding: 40px 60px;
+  text-align: center;
+  border-top: 1px solid #eaeaea;
+}
+.footer-logo {
+  font-size: 2.0rem;
+  color: #222;
+  font-weight: bold;
+  margin-bottom: 16px;
+}
+.footer-logo span {
+  color: #6cc619;
+}
+.social-icons {
+  margin-bottom: 18px;
+}
+.social-icons img {
+  width: 24px;
+  height: 24px;
+  margin: 0 8px;
+}
+.footer-links {
+  display: flex;
+  justify-content: center;
+  gap: 32px;
+  margin-top: 10px;
+}
+.footer-links a {
+  color: #222;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 1rem;
+}
+
+/* Responsive design */
+@media (max-width: 900px) {
+  nav, .feature, .footer-links {
+    flex-direction: column;
+    padding: 18px;
+    gap: 8px;
+  }
+  .feature {
+    gap: 0;
+  }
+  .gallery {
+    flex-wrap: wrap;
+    gap: 12px;
+  }
+}
+
+  </style>
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="logo"><span>Creative</span> Coder</div>
+      <ul class="nav-links">
+        <li><a href="#">For Today</a></li>
+        <li><a href="#">Teaching Academy</a></li>
+        <li><a href="#">Daily Routines</a></li>
+      </ul>
+      <a href="#" class="contact-btn">CONTACT US →</a>
+    </nav>
+    <section class="hero">
+      <div class="hero-content">
+        <h1>An Emotional Health and Wellness Program for Tennis Competitors</h1>
+        <a href="#" class="trial-btn">START FREE TRIAL →</a>
+      </div>
+    </section>
+  </header>
+  <main>
+    <section class="feature">
+      <div class="feature-left">
+        <h2>Why Work With a Sports Psychologist?</h2>
+        <ul>
+          <li>Improve focus & concentration under pressure</li>
+          <li>Build resilience after losses & setbacks</li>
+        </ul>
+        <div class="faq">
+          <div class="faq-item">
+            <span>01</span>
+            <div>
+              <strong>What does FBTL stand for?</strong>
+              <p>FBTL stands for First Ball to Last – a mindset that emphasizes emotional resilience and focus from the start.</p>
+            </div>
+          </div>
+          <div class="faq-item">
+            <span>02</span>
+            <div>
+              <strong>Who is FBTL for?</strong>
+            </div>
+          </div>
+        </div>
+        <a href="#" class="read-btn">READ MORE →</a>
+      </div>
+      <div class="feature-right">
+        <!-- Placeholder for consultation image -->
+        <div class="feature-img"></div>
+      </div>
+    </section>
+    <section class="gallery-section">
+      <h2>Gallery</h2>
+      <div class="gallery">
+        <div class="gallery-img"></div>
+        <div class="gallery-img"></div>
+        <div class="gallery-img"></div>
+        <div class="gallery-img"></div>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <div class="footer-logo"><span>Creative</span> Coder</div>
+    <div class="social-icons">
+      <a href="#"><img src="icon1.png" alt="icon"></a>
+      <a href="#"><img src="icon2.png" alt="icon"></a>
+      <a href="#"><img src="icon3.png" alt="icon"></a>
+      <a href="#"><img src="icon4.png" alt="icon"></a>
+    </div>
+    <div class="footer-links">
+      <a href="#">For Today</a>
+      <a href="#">Teaching Academy</a>
+      <a href="#">Daily Routines</a>
+      <a href="#">Emotion Racket</a>
+    </div>
+  </footer>
+</body>
+</html>
