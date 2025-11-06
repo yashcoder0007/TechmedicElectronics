@@ -1,4 +1,7 @@
 {
+  "buildCommand": "cd techmedic-craft-hub-main && npm install && npm run build",
+  "outputDirectory": "techmedic-craft-hub-main/dist",
+  "framework": "vite",
   "rewrites": [
     {
       "source": "/(.*)",
